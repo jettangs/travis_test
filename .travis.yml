@@ -3,7 +3,7 @@ node_js:
   - "10"
 sudo: required
 install:
-  - sudo npm install
+  - npm install
 script:
   - .travis/build.sh
 dist: trusty
